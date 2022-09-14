@@ -289,5 +289,21 @@ label #cancel {
     border-color: aliceblue;
 
 }
+@media screen and (max-width:600px) {
+    #contenido h2 {
+       color: aliceblue;
+    }
+    #contenido p {
+       color: aliceblue;
+    }
+    .boton{
+      color: aliceblue;
+      border-color: aliceblue;
+    }
+    .boton:hover{
+        color: black;
+        border-color: black;
+      }
+}
 
 
