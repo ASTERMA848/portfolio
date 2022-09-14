@@ -139,7 +139,7 @@ label #cancel {
 .pie-pagina {
     width: 100%;
     background-color: #0a141d;
-    margin-top: 90px;
+    margin-top: 0;
 }
 
 .pie-pagina .group-1 {
@@ -218,6 +218,11 @@ label #cancel {
         padding: 35px 0px;
         margin-bottom: 5%;
     }
+    .pie-pagina {
+        width: 100%;
+        background-color: #0a141d;
+        margin-top: 110px;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -254,7 +259,7 @@ label #cancel {
     text-align: center;
     padding-top: 5px;
     font-size: 55px;
-    color: rgb(179, 14, 14);
+    color: black;
 }
 
 #botonCV {
