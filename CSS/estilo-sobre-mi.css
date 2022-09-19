@@ -291,7 +291,7 @@ label #cancel {
     background-color: #4d537e9f;
     font-size: 20px;
     color: aliceblue;
-   
+   overflow-y: scroll;
 }
 .info p{
     padding-left: 5%;
@@ -312,3 +312,19 @@ label #cancel {
         color: aliceblue;
     } 
 }
+/* MODIFICAR SCROLL */
+/* TAMAÑO */
+::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+ ::-webkit-scrollbar-track {
+    background: #0a141d;  
+    height: 15px;     /* color of the tracking area */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:#4d537e9f;    /* color of the scroll thumb */
+    border-radius: 0px;       /* roundness of the scroll thumb */
+    border-radius: 10px;
+  }

@@ -289,7 +289,7 @@ label #cancel {
     border-color: aliceblue;
 
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
     #contenido h2 {
        color: aliceblue;
     }
@@ -305,5 +305,19 @@ label #cancel {
         border-color: black;
       }
 }
-
+/* MODIFICAR SCROLL */
+::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+ ::-webkit-scrollbar-track {
+    background: #0a141d;  
+    height: 15px;     /* color of the tracking area */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:#4d537e9f;    /* color of the scroll thumb */
+    border-radius: 0px;       /* roundness of the scroll thumb */
+    border-radius: 10px;
+  }
 
