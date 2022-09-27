@@ -312,8 +312,12 @@ label #cancel {
         color: aliceblue;
     } 
 }
+
+
+
+
+
 /* MODIFICAR SCROLL */
-/* TAMAÑO */
 ::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
   }
