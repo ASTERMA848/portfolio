@@ -453,3 +453,20 @@ label #cancel {
 #radio8:checked~.first {
     margin-left: -60%;
 }
+
+
+#radio9:checked~.first {
+    margin-left: 0;
+}
+
+#radio10:checked~.first {
+    margin-left: -20%;
+}
+
+#radio11:checked~.first {
+    margin-left: -40%;
+}
+
+#radio12:checked~.first {
+    margin-left: -60%;
+}
