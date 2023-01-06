@@ -470,3 +470,23 @@ label #cancel {
 #radio12:checked~.first {
     margin-left: -60%;
 }
+
+
+
+
+
+#radio13:checked~.first {
+    margin-left: 0;
+}
+
+#radio14:checked~.first {
+    margin-left: -20%;
+}
+
+#radio15:checked~.first {
+    margin-left: -40%;
+}
+
+#radio16:checked~.first {
+    margin-left: -60%;
+}
